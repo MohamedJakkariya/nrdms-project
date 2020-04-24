@@ -1,0 +1,152 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>pH</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+   
+    <!-- Bootstrap CSS File -->
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <main role="main">
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Header  -->
+        <div class="header">
+          <h1 class="text-center">pH, Electrical Conductivity and OC Elements</h1>
+        </div>
+        <!-- Three columns of text below the carousel -->
+        <div class="row" style="margin-top: 7rem;">
+          <div class="col-lg-3">
+            <img src="../img/elements/ph_scale.png" alt="Generic placeholder image" class="center rounded-circle" width="140" height="140">
+            <h2 class="mt-4 text-center">pH</h2>
+            <!-- <p class="content-align">pH is a measure of hydrogen ion concentration, a measure of the acidity or alkalinity of a solution. The pH scale usually ranges from 0 to 14.  A pH level of 7.0 at 25°C is defined as "neutral" because the concentration of H3O+ equals the concentration of OH− in pure water.</p> -->
+            <p style="float: left;"><a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#exampleModalLong1">Static Map &raquo;</a></p>
+            <p style="float: right;"><a class="btn btn-success" href="../qgis2web/newfolder/pH/index.html" role="button">Dynamic Map &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-3">
+            <img class="rounded-circle center" src="../img/elements/ec.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="mt-4 text-center">EC</h2>
+            <!-- <p class="content-align">Electric current is the flow of electrons though a material, and electrical conductivity is the ability of electric current to flow through a material. Conductors, such as copper, other metals, and water, have a high electrical conductivity and therefore can easily have electrons pass through them.</p> -->
+            <p style="float: left;"><a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#exampleModalLong2">Static Map &raquo;</a></p>
+            <p style="float: right;"><a class="btn btn-success" href="../qgis2web/electrical conductivity/index.html" role="button">Dynamic Map &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-3">
+            <img class="rounded-circle center" src="../img/elements/oc.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="mt-4 text-center">OC</h2>
+            <!-- <p class="content-align">organic matter content of the soil. Most soil organic matter originates from plant tissue. Plant residues contain 60-90 percent moisture. The remaining dry matter consists of carbon (C), oxygen, hydrogen (H) and small amounts of sulphur (S), nitrogen (N), phosphorus (P), potassium (K), calcium (Ca) and magnesium (Mg).</p> -->
+            <p style="float: left;"><a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#exampleModalLong3">Static Map &raquo;</a></p>
+            <p style="float: right;"><a class="btn btn-success" href="../qgis2web/Organic Content/index.html" role="button">Dynamic Map &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-3" style="margin: auto;">
+            <img class="rounded-circle center" src="../img/elements/salinity.png" alt="Generic placeholder image" width="140" height="140">
+            <h2 class="mt-4 text-center">Salinity</h2>
+            <!-- <p class="content-align">Soil salinity is the salt content in the soil; the process of increasing the salt content is known as salinization. Salts occur naturally within soils and water. Salination can be caused by natural processes such as mineral weathering or by the gradual withdrawal of an ocean.</p> -->
+            <p style="float: left;"><a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#exampleModalLong4">Static Map &raquo;</a></p>
+            <p style="float: right;"><a class="btn btn-success" href="../qgis2web/newfolder/Salinity/index.html" role="button">Dynamic Map &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+
+        </div><!-- /.row --> 
+      </div><!-- /.container -->
+
+        <!-- modal for div - 1 -->
+        <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">pH Map</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../qgis2web/Spatial Variation Map/pH.jpg" alt="" class="modal-img">
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End modal div - 1 -->
+
+        <!-- modal for div - 2 -->
+        <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">EC Map</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../qgis2web/Spatial Variation Map/EC.jpg" alt="" class="modal-img">
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End modal div - 2 -->
+
+        <!-- modal for div - 3 -->
+        <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">OC Map</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="../qgis2web/Spatial Variation Map/OC.jpg" alt="" class="modal-img">
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End modal div - 3 -->
+
+        
+        <!-- modal for div - 4 -->
+        <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Salinity Map</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+              </div>
+              <div class="modal-body">
+                  <img src="../qgis2web/Spatial Variation Map/Salinity.jpg" alt="" class="modal-img">
+              </div>
+          </div>
+          </div>
+      </div>
+      <!-- End modal div - 4 -->
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery/jquery-migrate.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
